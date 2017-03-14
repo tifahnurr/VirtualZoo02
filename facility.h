@@ -1,16 +1,20 @@
 #ifndef FACILITY_H
 #define FACILITY_H
-#include <string.h>
+
+#include <string>
+#include <iostream>
 
 class Facility {
   public:
     Facility();
     Facility(char c);
-    Facility(const& Facility);
-  
+    void Render();
+    char GetCode();
+    void Interact();
+
   protected:
     char code;
     std::string name;
-    
+
 };
 #endif
