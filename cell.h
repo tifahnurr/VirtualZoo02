@@ -31,13 +31,25 @@ class Cell {
       * Karakter pembeda facility */
      
     void SetFacility(char c);
-
+    
+    /**@brief GetHabitat
+     * Mengambil tipe habtat dari karakter pembeda untuk habitat
+     */
     Habitat GetHabitat ();
-
+  
+    /**@brief GetFacility
+     * Mengambil tipe Faclity dari karakter pembeda untuk fasilitas
+     */
     Facility GetFacility ();
-
+  
+    /**@brief Render
+     * Menampilkan tampilan yang harus ditampilkan
+     */
     void Render();
-
+  
+    /**@brief Interact
+     * Berinterasksi dengan cell
+     */
     void Interact();
 
   protected:
