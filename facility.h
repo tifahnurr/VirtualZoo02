@@ -15,7 +15,7 @@ class Facility {
   
     /**@brief Constructor.
      * Mengkonstruksi fasilitas dengan tipe tertentu yang diambil dari parameter c
-     */
+     * @param c Tipe pembeda dari fasilitas*/
     Facility(char c);
   
     /**@brief Render.
