@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 
-/**@class Cell
+/**@class Facility
  * Kelas yang digunakan untuk membentuk fasilitas*/
 class Facility {
   public:
