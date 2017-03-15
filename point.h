@@ -1,6 +1,7 @@
 #ifndef POINT_H
 #define POINT_H
-
+/**@class Point
+ * Kelas yang menangani koordinat */
 class Point {
   public:
     /**@brief Constructor
