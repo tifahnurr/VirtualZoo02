@@ -3,6 +3,9 @@
 #include <string.h>
 #include "cell.h"
 
+/**@class Zoo
+ * Kelas yang menangani matrix of cell yang merupakan peta virtual zoo*/
+
 class Zoo {
   public:
     /**@brief Constructor
